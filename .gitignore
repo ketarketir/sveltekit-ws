@@ -5,6 +5,8 @@ node_modules
 out
 dist
 *.tgz
+*.zip
+*.txt
 
 # code coverage
 coverage
