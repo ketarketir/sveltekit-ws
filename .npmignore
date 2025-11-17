@@ -16,3 +16,4 @@ coverage/
 .turbo/
 PROJECT_SUMMARY.md
 QUICKSTART.md
+*.txt
