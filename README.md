@@ -305,7 +305,7 @@ Check the `/examples` directory for:
 
 ### Vercel / Cloudflare / Netlify
 
-WebSocket tidak support di serverless platforms. Gunakan adapter-node dengan VPS/dedicated server.
+WebSocket is not supported in serverless platforms. Use adapter-node with VPS/dedicated server.
 
 ### Docker
 
@@ -337,12 +337,12 @@ CMD ["node", "server.js"]
 
 ## Troubleshooting
 
-### WebSocket tidak connect di production
+### WebSocket not connecting in production
 
-Pastikan:
+Make sure:
 
-1. Custom server sudah disetup dengan benar
-2. Port sudah exposed (3000 atau sesuai config)
+1. Custom server is setup correctly
+2. Port has been exposed (3000 or sesuai config)
 3. Firewall allow WebSocket connections
 4. Reverse proxy (nginx) support WebSocket upgrade
 
