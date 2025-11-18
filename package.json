@@ -5,6 +5,11 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ketarketir/sveltekit-ws.git",
+    "directory": "packages/sveltekit-ws"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
